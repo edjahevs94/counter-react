@@ -7,15 +7,13 @@ function App() {
    
   function add() {
       //usando funciones tradicionales
-      setCount(function(prevCount){
-              return prevCount + 1
-          } )
+      setCount(count + 1)
   }
   
   
   function subtract() {
       //usando arrow functions
-      setCount(prevCount => prevCount - 1)
+      setCount(count - 1)
   }
 
 
