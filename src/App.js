@@ -6,13 +6,13 @@ function App() {
   const [count, setCount] = React.useState(0)
    
   function add() {
-      //usando funciones tradicionales
+      
       setCount(count + 1)
   }
   
   
   function subtract() {
-      //usando arrow functions
+      
       setCount(count - 1)
   }
 
